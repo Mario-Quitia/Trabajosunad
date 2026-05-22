@@ -15,8 +15,9 @@ cantidad_peliculas = int(input("Ingrese la cantidad de películas a registrar: "
 for i in range(cantidad_peliculas): 
     print(f"\nRegistro de película {i+1}:")
     titulo = input("Ingrese el título de la película: ")
-    
+    calificacion = float(input("Ingrese la calificación: "))
     año_lanzamiento = int(input("Ingrese el año de lanzamiento de la película: "))
+    
     
     
     # Agregar la información de la película a la matriz
